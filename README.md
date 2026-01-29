@@ -59,8 +59,13 @@ Tree-based models (Decision Tree and Random Forest) significantly outperformed L
 
 ## Conclusion
 Exploratory data analysis revealed notable temporal variations in the total number of recorded crimes, indicating a non-linear behavior of the dataset over time.
+
 The Linear Regression model showed poor performance, with an RMSE of approximately 292 and an R² close to 0, demonstrating its inability to capture the underlying complexity of the data.
+
 The Decision Tree Regressor significantly improved prediction accuracy, achieving an RMSE of approximately 40.7 and an R² of 0.98, indicating a strong fit between predicted and actual values.
+
 The Random Forest Regressor delivered the best overall performance, with an RMSE of approximately 40.6 and an R² of 0.98, confirming its robustness and superior generalization capability.
+
 The comparison of models highlights that ensemble-based methods outperform linear approaches when dealing with complex, real-world crime data.
+
 Based on the evaluation metrics, Random Forest Regressor was identified as the most suitable model for predicting the total number of crimes in this dataset.
