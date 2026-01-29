@@ -69,3 +69,11 @@ The Random Forest Regressor delivered the best overall performance, with an RMSE
 The comparison of models highlights that ensemble-based methods outperform linear approaches when dealing with complex, real-world crime data.
 
 Based on the evaluation metrics, Random Forest Regressor was identified as the most suitable model for predicting the total number of crimes in this dataset.
+
+## Results Summary
+
+| Model              | RMSE  | R²    |
+|-------------------|-------|-------|
+| Linear Regression | ~292  | ~0.00 |
+| Decision Tree     | ~40.7 | ~0.98 |
+| Random Forest     | ~40.6 | ~0.98 |
